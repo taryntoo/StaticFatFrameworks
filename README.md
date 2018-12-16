@@ -6,6 +6,8 @@ The xcode projects and source files are released under the Apache license.
 
 In the bad old days, XCode would not permit the creation of Fat (containing code for multiple CPU types) Library Frameworks targeting iOS. This was a huge drawback because the iOS simulator ran x86 code, but the iPhone and iPad were ARM based, meaning you could not package libs that ran in both targets. The scripts and settings presented here permitted the creation and deployment of 'Fat' libs that supported cross-platform execution.
 
+NaePortals builds the Sample Fat Framework, PortalPoke uses that Framework. The apps do nothing useful, and have the silly names because they were condensed from a working project that required Fat Frameworks.
+
 This was presented to South Florida Cocoa developers in March, 2013. 
 https://www.meetup.com/Cocoa-Developers/events/109204622/ 
 (A typo in the meetup details incorrectly promised 'Steve' will present, but this was Taryn's research and documentation, and she did the presentation.)

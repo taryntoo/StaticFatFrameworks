@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8BF2ABFC16FF8A39002217F6 /* FatFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8BF2ABFD16FF8A39002217F6 /* Build configuration list for PBXAggregateTarget "FatFramework" */;
+			buildPhases = (
+				8BF2AC0016FF8A48002217F6 /* Run assemble_fatbin.sh */,
+			);
+			dependencies = (
+				8BF2AC0516FF8E15002217F6 /* PBXTargetDependency */,
+			);
+			name = FatFramework;
+			productName = FatFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8BF2ABEC16FF826F002217F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF2ABEB16FF826F002217F6 /* Foundation.framework */; };
+		8BF2ABF116FF826F002217F6 /* NAEportals.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BF2ABF016FF826F002217F6 /* NAEportals.h */; };
+		8BF2ABF316FF826F002217F6 /* NAEportals.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2ABF216FF826F002217F6 /* NAEportals.m */; };
+		8BF2ABFA16FF8522002217F6 /* NAEportals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF2ABF016FF826F002217F6 /* NAEportals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF2AC0916FFBB38002217F6 /* DeBuggage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF2AC0716FFBB38002217F6 /* DeBuggage.h */; };
+		8BF2AC0A16FFBB38002217F6 /* DeBuggage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2AC0816FFBB38002217F6 /* DeBuggage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BF2AC0416FF8E15002217F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF2ABDF16FF826F002217F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF2ABE716FF826F002217F6;
+			remoteInfo = NAEportals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BF2ABE616FF826F002217F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				8BF2ABF116FF826F002217F6 /* NAEportals.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8BF2ABE816FF826F002217F6 /* libNAEportals.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNAEportals.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF2ABEB16FF826F002217F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BF2ABEF16FF826F002217F6 /* NAEportals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NAEportals-Prefix.pch"; sourceTree = "<group>"; };
+		8BF2ABF016FF826F002217F6 /* NAEportals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAEportals.h; sourceTree = "<group>"; };
+		8BF2ABF216FF826F002217F6 /* NAEportals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAEportals.m; sourceTree = "<group>"; };
+		8BF2AC0716FFBB38002217F6 /* DeBuggage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeBuggage.h; path = DIAG/DeBuggage.h; sourceTree = SOURCE_ROOT; };
+		8BF2AC0816FFBB38002217F6 /* DeBuggage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeBuggage.m; path = DIAG/DeBuggage.m; sourceTree = SOURCE_ROOT; };
+		8BF2AC7316FFD233002217F6 /* Docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Docs; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF2ABE516FF826F002217F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2ABEC16FF826F002217F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BF2ABDD16FF826F002217F6 = {
+			isa = PBXGroup;
+			children = (
+				8BF2AC7316FFD233002217F6 /* Docs */,
+				8BF2AC0616FFBB16002217F6 /* DIAG */,
+				8BF2ABED16FF826F002217F6 /* NAEportals */,
+				8BF2ABEA16FF826F002217F6 /* Frameworks */,
+				8BF2ABE916FF826F002217F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF2ABE916FF826F002217F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2ABE816FF826F002217F6 /* libNAEportals.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BF2ABEA16FF826F002217F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2ABEB16FF826F002217F6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BF2ABED16FF826F002217F6 /* NAEportals */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2ABF016FF826F002217F6 /* NAEportals.h */,
+				8BF2ABF216FF826F002217F6 /* NAEportals.m */,
+				8BF2ABEE16FF826F002217F6 /* Supporting Files */,
+			);
+			path = NAEportals;
+			sourceTree = "<group>";
+		};
+		8BF2ABEE16FF826F002217F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2ABEF16FF826F002217F6 /* NAEportals-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BF2AC0616FFBB16002217F6 /* DIAG */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2AC0716FFBB38002217F6 /* DeBuggage.h */,
+				8BF2AC0816FFBB38002217F6 /* DeBuggage.m */,
+			);
+			name = DIAG;
+			path = NAEportals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8BF2ABF916FF8513002217F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2ABFA16FF8522002217F6 /* NAEportals.h in Headers */,
+				8BF2AC0916FFBB38002217F6 /* DeBuggage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8BF2ABE716FF826F002217F6 /* NAEportals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF2ABF616FF826F002217F6 /* Build configuration list for PBXNativeTarget "NAEportals" */;
+			buildPhases = (
+				8BF2ABE416FF826F002217F6 /* Sources */,
+				8BF2ABE516FF826F002217F6 /* Frameworks */,
+				8BF2ABE616FF826F002217F6 /* CopyFiles */,
+				8BF2ABF916FF8513002217F6 /* Headers */,
+				8BF2ABFB16FF873E002217F6 /* Run prepare_framework.sh */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAEportals;
+			productName = NAEportals;
+			productReference = 8BF2ABE816FF826F002217F6 /* libNAEportals.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BF2ABDF16FF826F002217F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Ornae;
+			};
+			buildConfigurationList = 8BF2ABE216FF826F002217F6 /* Build configuration list for PBXProject "NAEportals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BF2ABDD16FF826F002217F6;
+			productRefGroup = 8BF2ABE916FF826F002217F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF2ABE716FF826F002217F6 /* NAEportals */,
+				8BF2ABFC16FF8A39002217F6 /* FatFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BF2ABFB16FF873E002217F6 /* Run prepare_framework.sh */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run prepare_framework.sh";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# prepare_framework.sh, a script to create a framework folder tree for a library.\n# by tarynvw, 2013, based on knowledge, techniques, code, and algorithms from:\n# https://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/BPFrameworks/Concepts/FrameworkAnatomy.html\n# http://www.cocoanetics.com/2010/05/making-your-own-iphone-frameworks-in-xcode/\n# https://github.com/kstenerud/iOS-Universal-Framework\n# http://code.google.com/p/ios-static-framework/\n# http://www.davidpashley.com/articles/writing-robust-shell-scripts.html\n# use in conjunction with assemble_fatbin.sh to create distributable frameworks containing static fat libraries\n\n# Force stop on errors, prevent use of uninitialized vars\nset -e\nset -u\n\n# Create symbol for common location\nPF_TARGET_FRAMEWORK=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# (Re)Create the framework folders all the way up to /Headers/\n# Making the A folder first shouldn't be needed, but I've\n# had trouble with the symlinks in the past, so... WTH...\nmkdir -vp \"${PF_TARGET_FRAMEWORK}/Versions/A/\"\nmkdir -vp \"${PF_TARGET_FRAMEWORK}/Versions/A/Headers\"\n\n# Create symbolic file links as needed for Framework tree\n# Reminder to self:\n#  ln's first arg is the 'pointed to' filesystem element, which can be relative, and will\n#  be stored as is, and only parsed when referenced, so it doesn't matter what directory one\n#  is in when creating these links, as long as the second argument, the created 'pointing'\n#  file entry is placed correctly.\nln -vsf A \"${PF_TARGET_FRAMEWORK}/Versions/Current\"\nln -vsf Versions/Current/Headers \"${PF_TARGET_FRAMEWORK}/Headers\"\nln -vsf \"Versions/Current/${PRODUCT_NAME}\" \"${PF_TARGET_FRAMEWORK}/${PRODUCT_NAME}\"\n\n# Copy public headers, preserving date attribute (-a) so build dependencies propagate correctly.\n# Force (-f) overwrites existing files without question.\ncp -vaf \"${BUILT_PRODUCTS_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${PF_TARGET_FRAMEWORK}/Versions/A/Headers\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF2AC0016FF8A48002217F6 /* Run assemble_fatbin.sh */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run assemble_fatbin.sh";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# assemble_fatbin.sh, the aggregate target script for a static framework\n# by tarynvw, 2013, based on knowledge, techniques, code, and algorithms from:\n# https://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/BPFrameworks/Concepts/FrameworkAnatomy.html\n# http://www.cocoanetics.com/2010/05/making-your-own-iphone-frameworks-in-xcode/\n# https://github.com/kstenerud/iOS-Universal-Framework\n# http://code.google.com/p/ios-static-framework/\n# http://www.davidpashley.com/articles/writing-robust-shell-scripts.html\n# use in conjunction with prepare_framework.sh to create distributable frameworks containing static fat libraries\n\n\n# Tell the shell to halt on any failure (Not all that trusty, but may prevent cascades of errors.)\nset -e\n\n# Temporarily allow an uninitialized var (SF_MASTER_SCRIPT_RUNNING) to be examined without throwing an error\nset +u\n\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\n\n# Prevent any further use of uninitialized vars, and block recursion\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n\n# Extract platform name and version number for later use (surprising these aren't available directly)\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n#   Incredibly powerful, the fact that a test like ‘=~’ leaves dangling side effects to\n#   be reused just boggles the mind, and makes scripts like this hopelessly unreadable.\n#   BASH_REMATCH[1] will contain the char part of SDK_NAME, e.g. \"iphoneos\" out of \"iphoneos6.0\"\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\necho \"Extracted SF_SDK_PLATFORM: $SF_SDK_PLATFORM from SDK_NAME: $SDK_NAME\"\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n#   BASH_REMATCH[1] now contains numeric part of SDK_NAME, e.g. \"6.0\" out of \"iphoneos6.0\"\nSF_SDK_VERSION=${BASH_REMATCH[1]}\necho \"Extracted SF_SDK_VERSION: $SF_SDK_VERSION from SDK_NAME: $SDK_NAME\"\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nSF_ARCHS=i386\nelse\nSF_OTHER_PLATFORM=iphoneos\n#   We'd actually like to put armv6 code in the lib too, but modern XCode versions\n#   won't generate armv6 code, so we'll have to settle for 7 and 7s.\nSF_ARCHS=\"armv7 armv7s\"\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${SF_OTHER_PLATFORM}\" ARCHS=\"${SF_ARCHS}\" $ACTION\n\n# Combine the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# To simplify library testing during development, copy debug builds back to project folder.\nif [[ \"$CONFIGURATION\" = \"Debug\" ]]\nthen\n#   Because there are symlinks in the framework, it's a mess trying to copy a new one over the old, we'll toss it first.\nrm -Rf ./\"${SF_WRAPPER_NAME}\"\ncp -R -f -p \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}\" .\necho \"Copied debug build of $SF_WRAPPER_NAME from $BUILT_PRODUCTS_DIR to project dir\"\nelse\necho \"The fresh-built non-debug $SF_WRAPPER_NAME is in $BUILT_PRODUCTS_DIR\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF2ABE416FF826F002217F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2ABF316FF826F002217F6 /* NAEportals.m in Sources */,
+				8BF2AC0A16FFBB38002217F6 /* DeBuggage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BF2AC0516FF8E15002217F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF2ABE716FF826F002217F6 /* NAEportals */;
+			targetProxy = 8BF2AC0416FF8E15002217F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8BF2ABF416FF826F002217F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		8BF2ABF516FF826F002217F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		8BF2ABF716FF826F002217F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NAEportals.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAEportals/NAEportals-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8BF2ABF816FF826F002217F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NAEportals.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAEportals/NAEportals-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8BF2ABFE16FF8A39002217F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BF2ABFF16FF8A39002217F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF2ABE216FF826F002217F6 /* Build configuration list for PBXProject "NAEportals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2ABF416FF826F002217F6 /* Debug */,
+				8BF2ABF516FF826F002217F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF2ABF616FF826F002217F6 /* Build configuration list for PBXNativeTarget "NAEportals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2ABF716FF826F002217F6 /* Debug */,
+				8BF2ABF816FF826F002217F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF2ABFD16FF8A39002217F6 /* Build configuration list for PBXAggregateTarget "FatFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF2ABFE16FF8A39002217F6 /* Debug */,
+				8BF2ABFF16FF8A39002217F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF2ABDF16FF826F002217F6 /* Project object */;
+}
